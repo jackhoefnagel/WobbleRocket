@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{C5302C33-A51E-D9FA-D08F-10321637F232}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-Editor</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_0;UNITY_4_6;UNITY_STANDALONE_OSX;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_GAMECENTER;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="assets\Photon Unity Networking\editor\PhotonNetwork\AccountService.cs" />
+     <Compile Include="assets\Photon Unity Networking\editor\PhotonNetwork\PhotonConverter.cs" />
+     <Compile Include="assets\Photon Unity Networking\editor\PhotonNetwork\PhotonEditor.cs" />
+     <Compile Include="assets\Photon Unity Networking\editor\PhotonNetwork\PhotonViewHandler.cs" />
+     <Compile Include="assets\Photon Unity Networking\editor\PhotonNetwork\PhotonViewInspector.cs" />
+     <Compile Include="assets\Photon Unity Networking\editor\PhotonNetwork\PhotonViewPrefabApply.cs" />
+     <Compile Include="assets\Photon Unity Networking\editor\PhotonNetwork\ServerSettingsInspector.cs" />
+     <Compile Include="assets\Photon Unity Networking\playmaker\Editor\PlayMakerPhotonEditorUtility.cs" />
+     <Compile Include="assets\Photon Unity Networking\playmaker\Editor\PlayMakerPhotonGameObjectProxyEditor.cs" />
+     <Compile Include="assets\Photon Unity Networking\playmaker\Editor\PlayMakerPhotonWizard.cs" />
+     <Compile Include="assets\PlayMaker ArrayMaker\Actions\Editor\PlayMakerArrayListProxyObjectPropertyDrawer.cs" />
+     <Compile Include="assets\PlayMaker ArrayMaker\__internal__\Editor\PlayMakerArrayListProxyInspector.cs" />
+     <Compile Include="assets\PlayMaker ArrayMaker\__internal__\Editor\PlayMakerCollectionProxyInspector.cs" />
+     <Compile Include="assets\PlayMaker ArrayMaker\__internal__\Editor\PlayMakerHashTableProxyInspector.cs" />
+     <Compile Include="assets\PlayMaker Utils\Editor\PlayMakerEditorUtils.cs" />
+     <Compile Include="assets\PlayMaker\Editor\AboutWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\ContextToolWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmActionWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmComponentInspector.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmEditorHelpers.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmEditorWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmErrorWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmEventsWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmGlobalsWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmLogWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmSelectorWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmStateWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmTemplate.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmTemplateEditor.cs" />
+     <Compile Include="assets\PlayMaker\Editor\FsmTemplateWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\PlayMakerBugReportWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\PlayMakerCustomActionWizard.cs" />
+     <Compile Include="assets\PlayMaker\Editor\PlayMakerGUIInspector.cs" />
+     <Compile Include="assets\PlayMaker\Editor\PlayMakerGlobalsInspector.cs" />
+     <Compile Include="assets\PlayMaker\Editor\PlayMakerMainMenu.cs" />
+     <Compile Include="assets\PlayMaker\Editor\PlayMakerWelcomeWindow.cs" />
+     <Compile Include="assets\PlayMaker\Editor\ReportWindow.cs" />
+     <Compile Include="assets\PlayMaker\actions\Editor\LookAtActionEditor.cs" />
+     <Compile Include="assets\PlayMaker\actions\Editor\MoveTowardsActionEditor.cs" />
+     <Compile Include="assets\PlayMaker\actions\Editor\SetCameraFOVActionEditor.cs" />
+     <Compile Include="assets\iTween\PlayMaker\Editor\iTweenMoveToActionEditor.cs" />
+     <None Include="assets\Photon Unity Networking\playmaker\ReleaseNotes.txt" />
+     <None Include="assets\PlaymakerSamples\NoExit\NoExitAssets\Sound\SoundsnapLicense.txt" />
+     <None Include="assets\PlayMaker\Readme.txt" />
+     <None Include="assets\Shaders\Oberons Court Shaders\Oberon_vertex_sine_Sorted.shader" />
+     <None Include="assets\Shaders\Oberons Court Shaders\vc+rim+shadows.shader" />
+     <None Include="assets\Shaders\Oberons Court Shaders\Oberon_landscape.shader" />
+     <None Include="assets\Shaders\Oberons Court Shaders\Oberon_vertexlightfx.shader" />
+     <None Include="assets\Shaders\Oberons Court Shaders\Oberon_landscape_shadows.shader" />
+     <None Include="assets\Shaders\Oberons Court Shaders\overlay.shader" />
+     <None Include="assets\Shaders\Oberons Court Shaders\Oberon_character.shader" />
+     <None Include="assets\standard assets\particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="assets\Shaders\Oberons Court Shaders\Oberon_vertexcolor.shader" />
+     <None Include="assets\Photon Unity Networking\plugins\PhotonNetwork\library\Photon3Unity3D.xml" />
+     <None Include="assets\Photon Unity Networking\plugins\PhotonNetwork\library\release_history.txt" />
+     <None Include="assets\PlayMaker ArrayMaker\readme.txt" />
+     <None Include="assets\Shaders\Oberons Court Shaders\readme.txt" />
+     <None Include="assets\Shaders\Oberons Court Shaders\PureRim.shader" />
+     <None Include="assets\Shaders\Oberons Court Shaders\Oberon_basic_vertexcolor.shader" />
+     <None Include="assets\Elementals\!Readme.txt" />
+     <None Include="assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="assets\Shaders\Oberons Court Shaders\vc+shadows.shader" />
+     <None Include="assets\PlayMaker\Resources\PlayMakerAssemblies.txt" />
+     <None Include="assets\Shaders\Oberons Court Shaders\SubtleRim.shader" />
+     <None Include="assets\Shaders\Oberons Court Shaders\Oberon_vertexcolor+rim 1.shader" />
+     <None Include="assets\Photon Unity Networking\readme.txt" />
+     <None Include="assets\Shaders\UnlitAlphaWithFade.shader" />
+     <None Include="assets\Shaders\Oberons Court Shaders\Oberon_vertex_sine.shader" />
+     <None Include="assets\PlayMaker\Versions\readme.txt" />
+     <None Include="assets\Photon Unity Networking\changelog.txt" />
+     <None Include="assets\Shaders\Oberons Court Shaders\Oberon_vertexcolor+rim.shader" />
+     <None Include="assets\Shaders\Oberons Court Shaders\Oberon_vertexcolor+rim_batched.shader" />
+     <None Include="assets\Shaders\Oberons Court Shaders\simple_overlay.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.UI">
+ <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.0/Editor/UnityEditor.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/Photon Unity Networking/editor/PhotonNetwork/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/Photon Unity Networking/plugins/PhotonNetwork/library/Photon3Unity3D.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMaker">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/PlayMaker.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/Editor/PlayMakerEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditorResources">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/Editor/PlayMakerEditorResources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.de.resources">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/Editor/de/PlayMakerEditor.de.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.es-ES.resources">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/Editor/es-ES/PlayMakerEditor.es-ES.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.fr.resources">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/Editor/fr/PlayMakerEditor.fr.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.it.resources">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/Editor/it/PlayMakerEditor.it.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.ja.resources">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/Editor/ja/PlayMakerEditor.ja.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.nl.resources">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/Editor/nl/PlayMakerEditor.nl.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.pt-BR.resources">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/Editor/pt-BR/PlayMakerEditor.pt-BR.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.sv-SE.resources">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/Editor/sv-SE/PlayMakerEditor.sv-SE.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.zh-CN.resources">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/Editor/zh-CN/PlayMakerEditor.zh-CN.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="PlayMakerEditor.zh-TW.resources">
+ <HintPath>/Users/fhict/Documents/Unity Projects/Test Projects/PlaymakerTest2/PlaymakerTest/Assets/PlayMaker/Editor/zh-TW/PlayMakerEditor.zh-TW.resources.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{D48D0738-EBA3-66C5-D9BA-D19462D2B6C5}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-vs.csproj">
+      <Project>{97C39E7C-41A0-14F6-1289-89BF750576B5}</Project>      <Name>Assembly-CSharp-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

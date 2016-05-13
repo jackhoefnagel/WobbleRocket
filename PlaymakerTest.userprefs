@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameManager.cs">
+    <Files>
+      <File FileName="Assets\Scripts\GameManager.cs" Line="107" Column="36" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="76" Column="18" />
+      <File FileName="Assets\Connect.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Modifiers.cs" Line="52" Column="38" />
+      <File FileName="Assets\Scripts\RocketProjectile.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Modifiers\ClusterModifier.cs" Line="1" Column="1" />
+      <File FileName="Assets\TwitchChannel.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\TwitchIRC.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\IrcClient.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
